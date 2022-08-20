@@ -16,7 +16,7 @@ public class Films {
         return idFilms;
     }
 
-    public int setId(int idFilms) {
+    public void int setId(int idFilms) {
         this.idFilms = idFilms;
     }
 
@@ -24,7 +24,7 @@ public class Films {
         return name;
     }
 
-    public String setName(String name) {
+    public void String setName(String name) {
         this.name = name;
     }
 
@@ -33,7 +33,7 @@ public class Films {
 
     }
 
-    public String setGenres(String genres) {
+    public void String setGenres(String genres) {
         this.genres = genres;
     }
 }
