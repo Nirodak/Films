@@ -1,16 +1,20 @@
-package ru.netology.repository;
+package ru.netology.filmconstructor;
 
-public class Films {
+public class Film {
     private int idFilms;
     private String name;
     private String genres;
 
-    public void Film(int idFilms, String name, String genres) {
-        this.idFilms = idFilms;
+    private static int count=0;
+
+    public Film( String name, String genres) {
         this.name = name;
         this.genres = genres;
+        count++;
+        this.idFilms = count;
 
     }
+
 
     public int getId() {
         return idFilms;
@@ -36,4 +40,7 @@ public class Films {
     public void setGenres(String genres) {
         this.genres = genres;
     }
+
+
 }
+
