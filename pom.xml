@@ -58,11 +58,11 @@
                         </goals>
                     </execution>
 
-<!--                    <execution>-->
-<!--                        <id>check</id>-->
-<!--                        <goals>-->
-<!--                            <goal>check</goal>-->
-<!--                        </goals>-->
+                    <execution>
+                        <id>check</id>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
 <!--                        <configuration>-->
 
 <!--                            <rules>-->
@@ -78,7 +78,7 @@
 <!--                            </rules>-->
 
 <!--                        </configuration>-->
-<!--                    </execution>-->
+                    </execution>
 
                 </executions>
 
