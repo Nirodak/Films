@@ -23,8 +23,8 @@ public class TestFilmAfisha {
     }
 
     @Test
-    public void testFind5() {
-        Afisha afisha = new Afisha(5);
+    public void testFind20() {
+        Afisha afisha = new Afisha(20);
         Film film1 = afisha.newFilm("matrix","boevik");
         Film film2 = afisha.newFilm("matrix","boevik");
         Film film3 = afisha.newFilm("matrix","boevik");
@@ -41,7 +41,7 @@ public class TestFilmAfisha {
         Film film14 = afisha.newFilm("matrix","boevik");
         Film film15 = afisha.newFilm("matrix","boevik");
 
-        Film[] expected = {film15, film14, film13, film12, film11};
+        Film[] expected = {film15, film14, film13, film12, film11, film10, film9, film8,film7,film6,film5,film4,film3,film2,film1};
         Film[] actual = afisha.findLast();
 
         Assertions.assertArrayEquals(expected, actual);

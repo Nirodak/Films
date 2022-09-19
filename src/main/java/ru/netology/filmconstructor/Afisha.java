@@ -54,9 +54,13 @@ public class Afisha {
     public Film[] findLast() {
         int countFilm = this.films.length;
         Film[] films = new Film[this.size];
-        int counter = 0;
+
         if (countFilm < this.size) {
-            return this.films;
+          films= new Film[countFilm];
+            for (int i = 0; i < countFilm; i++) {
+                films[i] = this.films[countFilm -1 - i];
+            }
+            return films;
         }
         for (int i = 0; i < this.size; i++) {
             films[i] = this.films[countFilm - 1 - i];
