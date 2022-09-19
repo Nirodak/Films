@@ -56,7 +56,7 @@ public class Afisha {
         Film[] films = new Film[this.size];
 
         if (countFilm < this.size) {
-          films= new Film[countFilm];
+            films = new Film[countFilm];
             for (int i = 0; i < countFilm; i++) {
                 films[i] = this.films[countFilm -1 - i];
             }

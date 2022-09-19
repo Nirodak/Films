@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="15d96092-a5a1-4cf4-92d1-a7e16537ca5b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/filmconstructor/Afisha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/filmconstructor/Afisha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestFilmAfisha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestFilmAfisha.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +46,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TestFilmAfisha.testFind5">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Films" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestFilmAfisha.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Films" />
       <option name="PACKAGE_NAME" value="" />
@@ -69,6 +61,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestFilmAfisha" />
       <option name="METHOD_NAME" value="testFind10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFilmAfisha.testFind20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Films" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestFilmAfisha" />
+      <option name="METHOD_NAME" value="testFind20" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,10 +99,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestFilmAfisha.testFind5" />
+        <item itemvalue="JUnit.TestFilmAfisha.testFind20" />
         <item itemvalue="JUnit.TestFilmAfisha.testFindAll" />
         <item itemvalue="JUnit.TestFilmAfisha.testFind10" />
         <item itemvalue="JUnit.TestFilmAfisha.test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -127,14 +129,10 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestFilmAfisha.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="actual" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

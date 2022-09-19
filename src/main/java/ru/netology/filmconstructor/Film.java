@@ -5,9 +5,9 @@ public class Film {
     private String name;
     private String genres;
 
-    private static int count=0;
+    private static int count = 0;
 
-    public Film( String name, String genres) {
+    public Film(String name, String genres) {
         this.name = name;
         this.genres = genres;
         count++;
